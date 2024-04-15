@@ -1,0 +1,59 @@
+.periodic-table {
+  width: 100%;
+}
+
+.periodic-table th, .periodic-table td {
+  border: none;
+  border-radius: 3px 3px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.periodic-table td {
+  padding: 15px; /* Adiciona espaço apenas nas células td */
+}
+
+.element {
+  width: 40px;
+  height: 40px;
+}
+
+.empty {
+  background-color: #FFFFFF;
+}
+
+.BlueDark {
+  background-color: #3b56a6;
+}
+
+.Purple {
+  background-color: #7b5ba7;
+}
+
+.Pink {
+  background-color: #f27eb2;
+}
+
+.Red {
+  background-color: #EE3432;
+}
+
+.RedDark {
+  background-color: #A62439;
+}
+
+.Blue {
+  background-color: #6BC6EF;
+}
+
+.Orange {
+  background-color: #F58132;
+}
+
+.Yellow {
+  background-color: #d4ba0e;
+}
+
+.Green {
+  background-color: #38b66b;
+}
