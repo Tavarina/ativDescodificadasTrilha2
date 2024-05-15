@@ -1,0 +1,106 @@
+*{
+   color: #ffff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #3498db;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #3498db;
+    align-self: center;
+    width: 74%;
+}
+
+.content {
+    display: flex;
+    /* flex: 1; */
+    gap: 20px;
+    padding: 20px;
+    align-self: center;
+    width: 75%;
+}
+
+main {
+    /* flex-grow: 1; */
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-around; */
+    background-color: #41AE74;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #41AE74;
+    gap: 20px;
+    align-self: center;
+    height: 600px;
+}
+.main-h2{
+    padding-left: 12px;
+}
+.containercolumn {
+    flex-direction: row;
+    /* max-width: 75%; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-top: 45px;
+    /* margin-left: -77px; */
+}
+
+.item {
+    width: 6rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #328C59;
+    color: white;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 6px 7px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    height: 6rem;
+    border: solid 3px;
+    border-style: groove;
+    border-color: #328C59;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+aside {
+    flex: 1;
+    background-color: #FA644B;
+    border-style: groove;
+    border-color: #FA644B;
+    border-radius: 10px;
+    padding: 26px;
+    /* height: 651px; */
+}
+
+footer {
+    background-color: #4169DB;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #4169DB;
+    align-self: center;
+    width: 74%;
+   
+}
+
+h2 {
+    margin-left: 4px;
+}
